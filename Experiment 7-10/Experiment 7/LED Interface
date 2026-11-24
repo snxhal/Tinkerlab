@@ -1,0 +1,26 @@
+const int RED = 13;
+const int YELLOW = 12;
+const int BLUE = 8;
+
+void setup() {
+  pinMode(RED, OUTPUT);
+  pinMode(YELLOW, OUTPUT);
+  pinMode(BLUE, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(RED, HIGH);
+  delay(1000);
+  digitalWrite(RED, LOW);
+  delay(1000);
+
+  digitalWrite(YELLOW, HIGH);
+  delay(500);
+  digitalWrite(YELLOW, LOW);
+  delay(500);
+
+  digitalWrite(BLUE, HIGH);
+  delay(2000);
+  digitalWrite(BLUE, LOW);
+  delay(2000);
+}
